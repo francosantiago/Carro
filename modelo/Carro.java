@@ -24,6 +24,15 @@ public class Carro
         this.velocidad = 0;
     }
     
+    public Carro()
+    {
+        this.color = "";
+        this.posX = 0;
+        this.posY = 0;
+        this.velocidad = 0;
+
+    }
+    
     public static int getNumRuedas()
     {
         return numRuedas;
@@ -98,8 +107,9 @@ public class Carro
         }
     }
     
+    
     public String toString()
     {
-        return "";
+        return "DATOS DEL CARRO: \nNum. Ruedas: " + numRuedas + "\nColor: " + color + "\nPosX: " + posX + "\nPosY: " + posY + "\nvelocidad: " + getVelocidad(); 
     }
 }
