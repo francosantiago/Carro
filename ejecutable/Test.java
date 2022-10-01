@@ -23,7 +23,11 @@ public class Test
         Carro carro2 = new Carro("Blanco", 10, 100);
         carro2.acelerar();
         System.out.println(carro2);
-    
+        
+        Carro[] misCarros = new Carro[2];
+
+        misCarros[0] = carro1;
+        misCarros[1] = carro2;
 
     }
     
